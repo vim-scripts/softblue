@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Zhang Jing
-" Last Change:  %[% 2005年12月05日 星期一 16时39分23秒 %]%
+" Last Change:  %[% 2005年12月06日 星期二 10时21分08秒 %]%
 
 set background=dark
 if version > 580
@@ -14,8 +14,9 @@ let g:colors_name="softblue"
 hi Normal	    guibg=#1c345c   guifg=#b0b0e0
 
 hi Cursor	    guibg=#b3b2df   guifg=grey30    gui=bold
-hi Folded	    guibg=#0d2349   guifg=tan
-hi FoldColumn	guibg=#0d2349   guifg=tan
+hi VertSplit	guibg=#466292   guifg=grey50    gui=none
+hi Folded	    guibg=#0d2349   guifg=lightblue
+hi FoldColumn	guibg=#0d2349   guifg=lightblue
 hi IncSearch	guifg=slategrey guibg=khaki
 hi LineNr		guifg=grey30
 hi ModeMsg	    guifg=SkyBlue
@@ -25,7 +26,7 @@ hi Question	    guifg=springgreen
 hi Search	    guibg=#787878   guifg=wheat
 hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#466292   guifg=black     gui=none
-hi StatusLineNC	guibg=#466292   guifg=grey30    gui=none
+hi StatusLineNC	guibg=#466292   guifg=grey22    gui=none
 hi Title	    guifg=#38d9ff
 hi Visual	    gui=none        guifg=khaki     guibg=black
 hi WarningMsg	guifg=salmon
@@ -38,3 +39,4 @@ hi Type		    guifg=#8979f4
 hi Special	    guifg=#a2b9e0
 hi Ignore 	    guifg=grey40
 hi Todo		    guifg=#54b900   guibg=#622098
+"vim:ts=4:tw=4
