@@ -28,15 +28,17 @@ hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#466292   guifg=black     gui=none
 hi StatusLineNC	guibg=#466292   guifg=grey22    gui=none
 hi Title	    guifg=#38d9ff
-hi Visual	    gui=none        guifg=khaki     guibg=black
+hi Visual	    guifg=lightblue guibg=darkblue  gui=none
 hi WarningMsg	guifg=salmon
+
 hi Comment	    guifg=#6279a0
 hi Constant	    guifg=#9b60be
-hi Identifier	guifg=#00b962
-hi Statement	guifg=SkyBlue
-hi PreProc	    guifg=#38d9ff
-hi Type		    guifg=#8979f4
+hi Identifier	guifg=#00ac55
+hi Statement	guifg=SkyBlue2
+hi PreProc	    guifg=#20a0d0
+hi Type		    guifg=#8070ff
 hi Special	    guifg=#a2b9e0
 hi Ignore 	    guifg=grey40
+hi Error        guifg=white     guibg=#a02020
 hi Todo		    guifg=#54b900   guibg=#622098
 "vim:ts=4:tw=4
