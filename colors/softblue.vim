@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Zhang Jing
-" Last Change:  %[% 2005年12月06日 星期二 10时21分08秒 %]%
+" Last Change:  %[% 2005年12月07日 星期三 10时41分49秒 %]%
 
 set background=dark
 if version > 580
@@ -22,14 +22,15 @@ hi LineNr		guifg=grey30
 hi ModeMsg	    guifg=SkyBlue
 hi MoreMsg	    guifg=SeaGreen
 hi NonText	    guifg=LightBlue guibg=#0d2349
-hi Question	    guifg=springgreen
+hi Question	    guifg=#285ca4
 hi Search	    guibg=#787878   guifg=wheat
 hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#466292   guifg=black     gui=none
 hi StatusLineNC	guibg=#466292   guifg=grey22    gui=none
 hi Title	    guifg=#38d9ff
-hi Visual	    guifg=lightblue guibg=darkblue  gui=none
+hi Visual	    guifg=lightblue guibg=#001146   gui=none
 hi WarningMsg	guifg=salmon
+hi ErrorMsg     guifg=white     guibg=#b2377a
 
 hi Comment	    guifg=#6279a0
 hi Constant	    guifg=#9b60be
@@ -39,6 +40,6 @@ hi PreProc	    guifg=#20a0d0
 hi Type		    guifg=#8070ff
 hi Special	    guifg=#a2b9e0
 hi Ignore 	    guifg=grey40
-hi Error        guifg=white     guibg=#a02020
+hi Error        guifg=white     guibg=#b2377a
 hi Todo		    guifg=#54b900   guibg=#622098
 "vim:ts=4:tw=4
