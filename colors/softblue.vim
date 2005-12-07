@@ -11,7 +11,7 @@ if version > 580
 endif
 let g:colors_name="softblue"
 
-hi Normal	    guibg=#1c345c   guifg=#b0b0e0
+hi Normal	    guibg=#183058   guifg=#b0b0e0
 
 hi Cursor	    guibg=#b3b2df   guifg=grey30    gui=bold
 hi VertSplit	guibg=#466292   guifg=grey50    gui=none
