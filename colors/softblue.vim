@@ -22,7 +22,7 @@ hi LineNr		guifg=grey30
 hi ModeMsg	    guifg=SkyBlue
 hi MoreMsg	    guifg=SeaGreen
 hi NonText	    guifg=LightBlue guibg=#0d2349
-hi Question	    guifg=#285ca4
+hi Question	    guifg=#487cc4
 hi Search	    guibg=#787878   guifg=wheat
 hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#466292   guifg=black     gui=none
@@ -38,8 +38,8 @@ hi Identifier	guifg=#00ac55
 hi Statement	guifg=SkyBlue2
 hi PreProc	    guifg=#20a0d0
 hi Type		    guifg=#8070ff
-hi Special	    guifg=#a2b9e0
+hi Special	    guifg=#7c9cf5"a2b9e0
 hi Ignore 	    guifg=grey40
 hi Error        guifg=white     guibg=#b2377a
-hi Todo		    guifg=#54b900   guibg=#622098
+hi Todo		    guifg=#54b900   guibg=#622098   gui=bold
 "vim:ts=4:tw=4
