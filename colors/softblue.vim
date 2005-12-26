@@ -38,7 +38,7 @@ hi Identifier	guifg=#00ac55
 hi Statement	guifg=SkyBlue2
 hi PreProc	    guifg=#20a0d0
 hi Type		    guifg=#8070ff
-hi Special	    guifg=wheat3"#7c9cf5"#a2b9e0
+hi Special	    guifg=#b6a040"wheat4"#7c9cf5"a2b9e0
 hi Ignore 	    guifg=grey40
 hi Error        guifg=white     guibg=#b2377a
 hi Todo		    guifg=#54b900   guibg=#622098   gui=bold
